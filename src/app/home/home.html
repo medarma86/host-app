@@ -1,1 +1,6 @@
 <p>Host's home works!</p>
+
+<div class="host-controls">
+  <input #nameInput type="text" placeholder="Change user name...">
+  <button (click)="updateUName(nameInput.value)">Update State</button>
+</div>
